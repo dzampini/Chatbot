@@ -21,10 +21,10 @@ const config = {
   },
   initialMessages: [
     createChatBotMessage(
-      `Hi I'm ${botName}. I’m here to help you explain how I work.`
+      `Hola!, soy ${botName}. y estoy aqui para ayudarte.`
     ),
     createChatBotMessage(
-      "Here's a quick overview over what I need to function. ask me about the different parts to dive deeper.",
+      "dime en que puedo ser util?.",
       {
         withAvatar: false,
         delay: 500,
@@ -34,7 +34,7 @@ const config = {
   ],
   state: {
     gist: '',
-    infoBox: '',
+    infoBox: 'hola perro',
   },
   customComponents: {},
   customMessages: {

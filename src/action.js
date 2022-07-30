@@ -3,10 +3,10 @@ import React from 'react';
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
      const handleHello = () => {
     const botMessage = createChatBotMessage('Hola, mi nombre es Damiancito, en que puedo ayudarte?.');
-
+    const botMessagedos = createChatBotMessage('haz intentando con poner otra oracion?.');
     setState((prev) => ({
       ...prev,
-      messages: [...prev.messages, botMessage],
+      messages: [...prev.messages, botMessage, botMessagedos],
     }));
   };
   return (
