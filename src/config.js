@@ -23,18 +23,12 @@ const config = {
     createChatBotMessage(
       `Hola!, soy ${botName}. y estoy aqui para ayudarte.`
     ),
-    createChatBotMessage(
-      "dime en que puedo ser util?.",
-      {
-        withAvatar: false,
-        delay: 500,
-      }
-    ),
+   
     createCustomMessage('Test', 'custom'),
   ],
   state: {
     gist: '',
-    infoBox: 'hola perro',
+    infoBox: '',
   },
   customComponents: {},
   customMessages: {
